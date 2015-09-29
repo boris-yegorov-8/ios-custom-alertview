@@ -48,6 +48,7 @@ CGFloat buttonSpacerHeight = 0;
         delegate = self;
         useMotionEffects = false;
         buttonTitles = @[@"Close"];
+        buttonStyles = @{[NSNumber numberWithInt:0] : [NSNumber numberWithInt:UIAlertActionStyleDefault]};
         
         [[UIDevice currentDevice] beginGeneratingDeviceOrientationNotifications];
 
